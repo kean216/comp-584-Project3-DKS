@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Space Exploration Blog - CSS Grid</title>
+    <title>Space Exploration Blog - Advanced CSS Grid</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,30 +16,35 @@
 
         <nav class="sidebar">
             <ul>
-                <li><a href="#">Missions</a></li>
-                <li><a href="#">Discoveries</a></li>
-                <li><a href="#">Telescopes</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Active Missions</a></li>
+                <li><a href="#">Deep Space Discoveries</a></li>
+                <li><a href="#">Orbital Telescopes</a></li>
+                <li><a href="#">Communicate</a></li>
             </ul>
         </nav>
 
         <main class="content">
             <h2>The James Webb Telescope's Latest Discoveries</h2>
             <p>The James Webb Space Telescope has captured unprecedented images of deep space, revealing galaxies that formed just millions of years after the Big Bang. This changes our understanding of the early universe.</p>
-            <p>By observing in the infrared spectrum, Webb can pierce through thick dust clouds that previously obscured our view of stellar nurseries.</p>
+            
+    
+            <div class="stats-board">
+                <div class="stat align-start">Active Missions: 12</div>
+                <div class="stat center-both">Satellites: 8,400</div>
+                <div class="stat align-end">Lightyears: 0</div>
+            </div>
         </main>
 
         <aside class="gallery">
-            <!-- These items will showcase the 'dense' auto-flow property -->
-            <div class="gallery-item tall">Nebula A</div>
-            <div class="gallery-item">Star B</div>
-            <div class="gallery-item wide">Galaxy C</div>
-            <div class="gallery-item">Planet D</div>
-            <div class="gallery-item">Comet E</div>
+            <div class="gallery-item tall">Orion Nebula</div>
+            <div class="gallery-item">Pulsar X</div>
+            <div class="gallery-item wide">Andromeda</div>
+            <div class="gallery-item">Kepler-186f</div>
+            <div class="gallery-item">Halley's Comet</div>
         </aside>
 
         <footer class="footer">
-            <p>&copy; 2026 Galactic Explorer. Built with CSS Grid.</p>
+            <p>&copy; 2026 Galactic Explorer. Built entirely with CSS Grid.</p>
         </footer>
     </div>
 
